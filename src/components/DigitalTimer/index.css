@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.app-con {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-con {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 80%;
+  text-align: center;
+}
+.stopwatch-con {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.timer-con {
+  width: 50%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 24px;
+  width: 25%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  margin-bottom: 0px;
+}
+.timer-status {
+  margin-top: 0px;
+}
+.timer-controls-con {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.controls {
+  display: flex;
+}
+.control-con {
+  display: flex;
+  margin-right: 24px;
+}
+.control-button {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.set-timer-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.set-timer-button {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: 0px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.timer-display {
+  background-image: linear-gradient(to right, #34e7bb, #1dd1e9);
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
